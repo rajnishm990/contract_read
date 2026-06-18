@@ -1,0 +1,86 @@
+# ==========================================
+# Byte-compiled / optimized / DLL files
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ==========================================
+# Virtual Environments (Always ignore these)
+# ==========================================
+.venv/
+venv/
+ENV/
+env/
+pythonenv/
+
+# ==========================================
+# Environmental Variables & Secrets
+# ==========================================
+.env
+.env.local
+.env.*
+!.env.example
+*.env
+
+# ==========================================
+# Distribution / Packaging / Build Artifacts
+# ==========================================
+bin/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ==========================================
+# Testing & Code Quality Tools
+# ==========================================
+.htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ==========================================
+# Jupyter Notebooks Local State
+# ==========================================
+.ipynb_checkpoints
+
+# ==========================================
+# IDEs and Editors (Optional but Recommended)
+# ==========================================
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# PyCharm / IntelliJ
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db

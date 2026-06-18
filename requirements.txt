@@ -1,0 +1,19 @@
+langgraph>=1.0.7              # Workflow orchestration
+langchain>=0.2.0              # LLM application framework
+langchain-community           # Community integrations
+langchain-text-splitters      # Document chunking utilities
+openai>=1.0.0                 # OpenAI API client
+paddlepaddle                  # Paddle deep learning backend
+paddleocr                     # OCR engine for PDFs/scanned docs
+sentence-transformers         # Embedding generation
+faiss-cpu                     # Vector similarity search
+rank-bm25                     # Keyword-based retrieval
+PyMuPDF                       # PDF parsing/rendering
+opencv-python-headless        # Image preprocessing
+Pillow                        # Image manipulation
+imagehash                     # Duplicate image detection
+openpyxl                      # Excel export generation
+streamlit>=1.28.1             # Web application UI
+python-dotenv                 # Environment variable management
+numpy                         # Numerical operations
+pandas                        # Structured data processing
