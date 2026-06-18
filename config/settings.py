@@ -10,3 +10,4 @@ RRF_K             = 60     # Reciprocal rank fusion constant
 HIGH_CONFIDENCE   = 0.80   # Green threshold
 LOW_CONFIDENCE    = 0.50   # Red threshold
 PDF_DPI           = 200    # PDF rasterization resolution
+TEMP_DIR =""
