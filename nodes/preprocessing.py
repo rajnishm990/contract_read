@@ -1,4 +1,6 @@
 import cv2
+import shutil 
+import os 
 import imagehash 
 from PIL import Image
 import numpy as np 
@@ -82,7 +84,7 @@ def _xml_to_text(xml_path: str) -> str:
     return "\n".join(_recurse(root))
 
 
-# ── Node ─────────────────────────────────────────────────────────────────────
+# Node 
 
 def preprocess_node(state: ContractState) -> dict:
     log = list(state.get("processing_log", []))

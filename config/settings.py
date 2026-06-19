@@ -11,3 +11,12 @@ HIGH_CONFIDENCE   = 0.80   # Green threshold
 LOW_CONFIDENCE    = 0.50   # Red threshold
 PDF_DPI           = 200    # PDF rasterization resolution
 TEMP_DIR =""
+
+EXTRACT_FIELDS = [
+    "party_a_legal_name",
+    "party_b_legal_name",
+    "start_date",
+    "end_date",
+    "payment_conditions",
+    "price_details",
+]
