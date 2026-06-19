@@ -3,7 +3,7 @@ from typing  import List , Dict , Any
 from langchain_text_splitters import RecursiveCharacterTextSplitter 
 
 from models.state import ContractState
-from services.vectror_store import HybridVectorStore 
+from services.vector_store import HybridVectorStore 
 from config.settings import CHUNK_OVERLAP, CHUNK_SIZE 
 
 _session_store : HybridVectorStore | None=None # resets for each document .. No need to maintian cross document persistence 
